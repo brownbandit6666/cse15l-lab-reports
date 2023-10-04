@@ -1,7 +1,7 @@
-**# Lab Report 1 - Remote Access and FileSystem (Week 1)**
+# **Lab Report 1 - Remote Access and FileSystem (Week 1)**
 * cd
-  * ![Image](http://url/a.png)
+  * ![Image](cd_image.JPG)
 * ls
-  * ![Image](http://url/a.png)
+  * ![Image](ls_image.JPG)
 * cat
-  * ![Image](http://url/a.png)
+  * ![Image](cat_image.JPG)
