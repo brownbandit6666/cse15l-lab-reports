@@ -1,2 +1,2 @@
 # ***Welcome to my Git***
-[Lab1](http://a.com)
+[Lab1](lab1.md)
