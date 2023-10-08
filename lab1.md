@@ -15,4 +15,7 @@
 * **`cat`**
   * ![Image](cat_image.JPG)
   * Working Directory: `/home`
-  * 
+  * Primarily, the first instance of use with `cat` we can see it cause an input loop. Since I used it
+    at the root directory with no argument it waits for an input to be typed and then returns it back to the user,
+    until you exit ("^C"). Otherwise it views the directory or file provided as an argument, hence why the `lecture1/Hello.java`
+    argument prints the contents of the Java file.
