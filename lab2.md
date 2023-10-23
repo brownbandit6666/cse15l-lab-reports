@@ -10,11 +10,8 @@
   * The arraylist `str`, the int `nums`, and String `output` all change. Each one changes after every input, incrementing singularly everytime. This goes
     for the strings added and the `nums` value.
 * **Part 2**
-  * ![Image](ls_image.JPG)
-  * Working Directory: `/home` & `/home/lecture1`
-  * When working with the `ls` command each usage outputed a list format of all immediate contents of the
-    working directory. In the last instance of using `ls` with a file, since there are no consecutive routes
-    or content it outputed the file itself.
+  * ![Image](part2_2.JPG)
+  * ![Image](part2_1.JPG)
 * **Part 3**
   * Something that I enjoyed truly learning through experience with this lab was the relationship between my raw code, manually compiling it and
     testing it on my locally hosted server. Primarily it felt like my programming was actually being used for something that produced a real result
