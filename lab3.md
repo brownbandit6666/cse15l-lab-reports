@@ -13,8 +13,8 @@
     assertArrayEquals(new int[]{1}, input1);
 	}`
 
-  * ![Image](part2_2.JPG)
-  * ![Image](part2_1.JPG)
+  * ![Image](output_1.JPG)
+  * ![Image](output_2.JPG)
     
   * **Before:**
   * `static void reverseInPlace(int[] arr) {
@@ -30,10 +30,22 @@
       arr[arr.length - i - 1] = temp;
     }
   }`
+This fix properly addresses the issue since the method now accomplishes the desired result. The reverseInPlace() method did not properly function prior to my overhaul of it due to the inadequate calculations. Each iteration my new algorithm changes each position simultaneously.
+ 
 * **Part 2**
-  * ![Image](part2_2.JPG)
-  * ![Image](part2_1.JPG)
-* **Part 3**
-  * Something that I enjoyed truly learning through experience with this lab was the relationship between my raw code, manually compiling it and
-    testing it on my locally hosted server. Primarily it felt like my programming was actually being used for something that produced a real result
-    whereas in previous CS classes we test through JUNIT or unit tests. I enjoyed learning the nuances of setting up my own server to test my code.
+  * `find`
+	* *Searching by Size:*
+  	* `$ find -size +1M`, this searches for files that are greater than 1MB and since none are we recieve no ouput.
+   	* `$ find -size +1G`, this searches for files that are greater than 1GB and since none are we recieve no ouput.
+   	* *Deleting Files*
+    	*  `$ find type -f -name "find-results.txt" -exec rm {} \;`, this deletes files based on the parameters given. In this case it deleted *"find-results.txt"*.
+     	* `$ find type -f -name "*.txt" -exec rm {} \;`, this deletes all files of type *".txt"* in the working directory.
+      	* *Searching for Empty Folders*
+      	* `$ find type -d -empty`, this seraches for empty directories, outputs nothing since there are none.
+      	* `$ find type -f -empty`, this find empty files.
+      	* *Search by a User on PC*
+      	* `$find -user micha`, this outputed all files since they all lie within my user's directory.
+      	* `$find -user tom`, this returns `find: ‘tom’ is not the name of a known user` since I am the only user of my PC.
+
+
+In finding `find` command options, *ChatGPT* was used. The inputs given were *"List some usage options for the command `find`?"*.This resulted with a laundry list of ways to utilize `find`. I chose 4 and tested them on my own.
