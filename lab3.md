@@ -37,8 +37,8 @@ This fix properly addresses the issue since the method now accomplishes the desi
 * **Part 2**
   * `find`
 	* *Searching by Size:*
-  	* `$ find -size +1M`, this searches for files that are greater than 1MB and since none are we recieve no ouput.
-   	* `$ find -size +1G`, this searches for files that are greater than 1GB and since none are we recieve no ouput.
+  	*  `$ find -size +1M`, this searches for files that are greater than 1MB and since none are we recieve no ouput.
+   	*  `$ find -size +1G`, this searches for files that are greater than 1GB and since none are we recieve no ouput.
 	* *Deleting Files*
     	*  `$ find type -f -name "find-results.txt" -exec rm {} \;`, this deletes files based on the parameters given. In this case it deleted *"find-results.txt"*.
     	* `$ find type -f -name "*.txt" -exec rm {} \;`, this deletes all files of type *".txt"* in the working directory.
