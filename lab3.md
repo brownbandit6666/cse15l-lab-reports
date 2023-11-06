@@ -30,6 +30,8 @@
       arr[arr.length - i - 1] = temp;
     }
   }`
+
+
 This fix properly addresses the issue since the method now accomplishes the desired result. The reverseInPlace() method did not properly function prior to my overhaul of it due to the inadequate calculations. Each iteration my new algorithm changes each position simultaneously.
  
 * **Part 2**
