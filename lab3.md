@@ -14,7 +14,7 @@
 	    int[] input1 = {1};
 	    ArrayExamples.reverseInPlace(input1);
 	    assertArrayEquals(new int[]{1}, input1);
-	}`
+	}
 
   * ![Image](output_1.JPG)
   * ![Image](output_2.JPG)
@@ -25,7 +25,7 @@
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }`
+  
   * **After:**
   * ```
     static void reverseInPlace(int[] arr) {
@@ -34,7 +34,7 @@
       arr[i] = arr[arr.length - i - 1];
       arr[arr.length - i - 1] = temp;
     }
-  }`
+  
 
 
 This fix properly addresses the issue since the method now accomplishes the desired result. The reverseInPlace() method did not properly function prior to my overhaul of it due to the inadequate calculations. Each iteration my new algorithm changes each position simultaneously.
