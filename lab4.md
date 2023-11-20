@@ -6,7 +6,7 @@
   * ![Image](Step_6.JPG)
     * **Key Path:** `bash test.sh`,   *<"enter">*
   * ![Image](Step_7.JPG)
-    * **Key Path:** `vim ListExamples.java`, *<"down">* x44,   *<"right">*x12,   *x*,    *i*,   *2*,   *<"esc">*,   *:wq*
+    * **Key Path:** `vim ListExamples.java`, *<"down">* x44,   *<"right">* x12,   *x*,    *i*,   *2*,   *<"esc">*,   *:wq*
   * ![Image](Step_8.JPG)
     * **Key Path:** `bash test.sh`,   *<"enter">*
   * ![Image](Step_9.JPG)
