@@ -10,7 +10,7 @@
     * This runs the JUNIT tests.
   * ![Image](Step_7.JPG)
     * **Key Path:** `vim ListExamples.java`, `<down>` x44,   `<right>` x12,   `x`,    `i`,   `2`,   `<esc>`,   `:wq`
-    * I first open the .java file in Vim in order to edit its contents. I then proceed down 44 lines and over 12 columns. I delete the 1 out of `index1`, enter insert mode, and type 2 to make it `index2`. I exit insert mode using `<esc>` and save/quit using `:wq`.
+    * I first open the .java file in Vim in order to edit its contents. I then proceed down 44 lines and over 12 columns. I delete the 1 out of `index1` using `x`, enter insert mode using `i`, and type 2 to make it `index2`. I exit insert mode using `<esc>` and save/quit using `:wq`.
   * ![Image](Step_8.JPG)
     * **Key Path:** `bash test.sh`,   `<enter>`
     * This runs the JUNIT tests.
