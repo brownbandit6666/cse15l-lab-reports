@@ -3,3 +3,4 @@
 [Lab2](lab2.md)
 [Lab3](lab3.md)
 [Lab4](lab4.md)
+[Lab5](lab5.md)
